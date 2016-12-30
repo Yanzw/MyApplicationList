@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yanzhiwei.myapplicationlist.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/btn_margin_top"
+        android:gravity="center"
+        android:text="@string/nanodegree_app_list"
+        android:textColor="@android:color/darker_gray" />
+
+    <Button
+        android:id="@+id/btn_hot_movies"
+        style="@style/BtnStyle"
+        android:text="@string/hot_movies" />
+
+    <Button
+        android:id="@+id/btn_stock_eagle"
+        style="@style/BtnStyle"
+        android:text="@string/stock_eagle" />
+
+    <Button
+        android:id="@+id/btn_xyz_reader"
+        style="@style/BtnStyle"
+        android:text="@string/xyz_reader" />
+
+    <Button
+        android:id="@+id/btn_news_app"
+        style="@style/BtnStyle"
+        android:text="@string/news_app" />
+
+    <Button
+        android:id="@+id/btn_graduate_design"
+        style="@style/BtnStyle"
+        android:text="@string/graduate_design" />
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application List</string>
+    <string name="nanodegree_app_list">Nanodegree App List</string>
+    <string name="hot_movies">Hot Movies</string>
+    <string name="stock_eagle">Stock Eagle</string>
+    <string name="xyz_reader">XYZ Reader</string>
+    <string name="news_app">News App</string>
+    <string name="graduate_design">Graduate Design</string>
+</resources>
